@@ -1,0 +1,33 @@
+.modalContainer{
+    .modalHeader{
+        margin-bottom: 20px;
+        .nameCountry{
+            font-size: 2rem;
+            font-weight: 500;
+        }
+        .capitalCountry{
+            font-size: 1.4rem;
+            font-weight: 300;            
+        }
+    }          
+
+    .modalBody{        
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;                
+        .bodyItem{
+            margin-top: 0.5rem;                     
+            display: flex;            
+            align-items: center;                           
+            .title{
+                font-weight: 500;
+                font-size: 1.2rem; 
+                margin-right: 0.5rem;                              
+            }       
+            .titleValue{
+                font-size: 1rem;
+                font-weight: 300;
+            }            
+        }
+    }
+}

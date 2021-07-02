@@ -1,0 +1,14 @@
+.mainContainer{
+    width: 100%;
+    height: auto; 
+    
+    .containerCards{
+        width: 90%;
+        height: auto;
+        margin: auto;                
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;        
+    }
+}
+
