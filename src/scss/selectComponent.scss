@@ -2,9 +2,18 @@
     width: 20%;
     margin-left: 6%;
     margin-top: 5rem; 
-    border-bottom: 1px solid black;                          
+    border-bottom: 1px solid black;                         
     select{
         width: 100%;
         border: none;                                   
     }  
 }
+
+
+@media(max-width:380px){
+    .selectRegionDiv{   
+        width: 90%;                                                
+    }
+           
+}
+

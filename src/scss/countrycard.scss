@@ -50,3 +50,23 @@
 .cardCoontainer:hover{
     cursor: pointer;
 }
+
+
+@media(max-width:380px){
+    .cardCoontainer{    
+        width: 92%;
+        height: auto;         
+        margin-top: 1rem;                      
+       
+        .cardBody{
+            width: 100%;            
+            display: flex;
+            justify-content: center;                                    
+            img{                
+                width: 80%;
+            }                
+        }  
+        
+       
+    }    
+}
